@@ -11,8 +11,7 @@ Este repositorio contiene el código fuente para un servidor API que utiliza Fas
 ├── 📄 agents.py             # Archivo que contiene la lógica de integración con LLM
 ├── 📄 requirements.txt      # Archivo que contiene las dependencias necesarias para ejecutar el proyecto
 ├── 📄 Dockerfile            # Archivo para contenerizar la aplicación con Docker
-├── 📄 docker-compose.yml    # Archivo para levantar el servicio usando Docker Compose
-└── 📄 .env                  # Archivo de entorno donde se configura la clave de la API de Groq
+└── 📄 docker-compose.yml    # Archivo para levantar el servicio usando Docker Compose
 ```
 
 ## Descripción de los Archivos
@@ -22,7 +21,6 @@ Este repositorio contiene el código fuente para un servidor API que utiliza Fas
 - **requirements.txt**: Lista las dependencias del proyecto, incluyendo FastAPI, LangChain, entre otras.
 - **Dockerfile**: Define cómo crear la imagen Docker para el proyecto.
 - **docker-compose.yml**: Facilita el despliegue del entorno utilizando Docker Compose.
-- **.env**: Archivo para las variables de entorno, como la clave de la API de Groq.
 
 ## Requisitos
 
