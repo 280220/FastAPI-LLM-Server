@@ -10,6 +10,7 @@ Este repositorio contiene el código fuente para un servidor API que utiliza Fas
 ├── 📄 main.py               # Archivo principal que ejecuta la API usando FastAPI
 ├── 📄 agents.py             # Archivo que contiene la lógica de integración con LLM
 ├── 📄 requirements.txt      # Archivo que contiene las dependencias necesarias para ejecutar el proyecto
+├── 📄 tests.py              # Archivo que contiene que incluye pruebas unitarias
 ├── 📄 Dockerfile            # Archivo para contenerizar la aplicación con Docker
 └── 📄 docker-compose.yml    # Archivo para levantar el servicio usando Docker Compose
 ```
