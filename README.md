@@ -33,7 +33,7 @@ Este repositorio contiene el código fuente para un servidor API que utiliza Fas
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone https://github.com/usuario/repositorio.git
+   git clone https://github.com/usuario/FastAPI-LLM-Server.git
    cd repositorio
    ```
 
