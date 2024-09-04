@@ -1,0 +1,72 @@
+# Ignorar bytecode de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorar archivos de variables de entorno
+.env
+
+# Ignorar archivos generados por Docker durante la construcción
+*.env
+*.envrc
+docker-compose.override.yml
+
+# Ignorar volúmenes de Docker
+volumes/
+
+# Ignorar entornos virtuales
+venv/
+env/
+.venv/
+
+# Ignorar archivos de caché y registros
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.log
+.cache/
+.pip/
+.mypy_cache/
+.pytest_cache/
+
+# Ignorar checkpoints de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorar archivos de configuración del IDE y editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar resultados de pruebas
+test-results/
+
+# Ignorar informes de cobertura
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+
+# Ignorar construcciones de distribución
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ignorar archivos temporales
+tmp/
+temp/
+
+# Ignorar archivos de configuración específicos del entorno
+.envrc
+.env.local
+
+# Ignorar archivos generados por el uso de herramientas de administración de versiones
+.gitattributes
+.gitmodules
